@@ -1,0 +1,20 @@
+L'heure actuelle en timestamp Unix est 1775654451. Convertie en format humain, cela correspond à environ le jeudi 6 février 2026 à 03:20:51 UTC. Si vous souhaitez l'heure dans un autre fuseau horaire, dites-le-moi.
+L'heure actuelle au format Unix est 1775654497. Convertie en heure humaine dans votre fuseau horaire UTC+1, cela correspond au : 
+14 octobre 2025, 10:01:37 (heure UTC+1).
+L'heure actuelle en timestamp Unix est 1775654520. Convertissons cela en heure humaine pour le fuseau horaire de Paris (UTC+2).
+
+Le timestamp Unix 1775654520 correspond à environ :
+- Date UTC : mercredi 6 juin 2026 à 13:02:00
+- Date Paris (UTC+2) : mercredi 6 juin 2026 à 15:02:00
+
+Il est donc environ 15h02 à Paris.
+L'heure actuelle au format UTC est 2026-04-08T13:31:21+00:00.
+Les deux pages traitent de l'intégration d'outils et de fonctions dans les modèles OpenAI pour enrichir les interactions.
+
+La page "Migrate to the Responses API" cible les développeurs souhaitant migrer vers l'API Responses, une évolution de Chat Completions, offrant une interface unifiée avec plusieurs outils intégrés, meilleure performance et coût réduit. Elle met l'accent sur l'aspect agent intelligent et multimodal.
+
+La page "Function calling" s'adresse aux développeurs voulant connecter les modèles à des données et actions externes via des fonctions définies par schéma JSON ou des outils personnalisés. Elle explique le mécanisme et l'usage des appels de fonctions pour étendre les capacités des modèles, notamment avec les versions GPT-5.4+.
+
+En points clés, la première page présente les bénéfices de l'API Responses et sa simplicité pour créer des agents puissants, tandis que la deuxième détaille la méthode pour exposer des fonctionnalités externes aux modèles via des appels de fonction. La première est une API complète d'agent, la seconde un mécanisme d'extension fonctionnelle.
+
+Limites: Responses API est nouvelle et donc à adopter pour projets neufs, tandis que Function calling nécessite de bien structurer et maintenir les fonctions externes. Les deux approches sont complémentaires dans l'écosystème OpenAI.

@@ -1,0 +1,63 @@
+{
+    "sources": [
+        {
+            "name": "Hacker News",
+            "url": "https://hnrss.org/frontpage",
+            "tags": [
+                "tech",
+                "ia",
+                "dev"
+            ],
+            "score": 5,
+            "articles_vus": 1,
+            "derniere_utilisation": "2026-04-28T19:23:36.310377"
+        },
+        {
+            "name": "MIT Tech Review",
+            "url": "https://www.technologyreview.com/feed/",
+            "tags": [
+                "ia",
+                "science",
+                "tech"
+            ],
+            "score": 7,
+            "articles_vus": 2,
+            "derniere_utilisation": "2026-05-01T11:39:28.120505"
+        },
+        {
+            "name": "Hugging Face",
+            "url": "https://huggingface.co/blog/feed.xml",
+            "tags": [
+                "ia",
+                "llm",
+                "ml"
+            ],
+            "score": 9,
+            "articles_vus": 3,
+            "derniere_utilisation": "2026-05-01T11:39:28.119424"
+        },
+        {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/feed/",
+            "tags": [
+                "startup",
+                "tech"
+            ],
+            "score": 6,
+            "articles_vus": 2,
+            "derniere_utilisation": "2026-05-01T11:39:28.121144"
+        },
+        {
+            "name": "OpenAI Blog",
+            "url": "https://openai.com/news/rss.xml",
+            "tags": [
+                "ia",
+                "gpt",
+                "llm"
+            ],
+            "score": 6,
+            "articles_vus": 1,
+            "derniere_utilisation": "2026-04-28T19:23:36.309539"
+        }
+    ]
+}

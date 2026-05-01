@@ -1,0 +1,77 @@
+{
+  "topics": [
+    "IA",
+    "Python",
+    "agents",
+    "RAG",
+    "LLM"
+  ],
+  "sources": [
+    {
+      "url": "https://ai.googleblog.com",
+      "kind": "web",
+      "tags": [
+        "IA agents",
+        "AI"
+      ],
+      "domain": "ai.googleblog.com"
+    },
+    {
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "kind": "web",
+      "tags": [
+        "IA agents",
+        "research",
+        "papers"
+      ],
+      "domain": "arxiv.org"
+    },
+    {
+      "url": "https://www.oreilly.com/radar/topics/ai-agent",
+      "kind": "web",
+      "tags": [
+        "IA agents",
+        "Tool Calling"
+      ],
+      "domain": "www.oreilly.com"
+    },
+    {
+      "url": "https://www.alexirpan.com",
+      "kind": "web",
+      "tags": [
+        "IA agents",
+        "RAG"
+      ],
+      "domain": "www.alexirpan.com"
+    },
+    {
+      "url": "https://openai.com/research",
+      "kind": "web",
+      "tags": [
+        "AI research",
+        "RAG"
+      ],
+      "domain": "openai.com"
+    },
+    {
+      "url": "https://www.assemblyai.com/blog/category/ai-agents",
+      "kind": "web",
+      "tags": [
+        "IA agents",
+        "tool calling"
+      ],
+      "domain": "www.assemblyai.com"
+    },
+    {
+      "url": "https://blog.langchain.com",
+      "kind": "web",
+      "tags": [
+        "RAG",
+        "tool calling",
+        "IA agents"
+      ],
+      "domain": "blog.langchain.com"
+    }
+  ],
+  "seen_links": []
+}
