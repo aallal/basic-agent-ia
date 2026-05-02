@@ -2,7 +2,7 @@ name: Veille IA quotidienne
 
 on:
   schedule:
-    - cron: '0 6 * * 1-5'  # 7h Paris, du lundi au vendredi seulement
+  #  - cron: '0 6 * * 1-5'  # 7h Paris, du lundi au vendredi seulement
   workflow_dispatch:          # bouton "Run" manuel sur GitHub
 
 env:
