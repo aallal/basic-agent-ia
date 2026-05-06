@@ -1,0 +1,14 @@
+# Secrets
+.env
+*.env
+
+# Logs
+*.log
+
+# Rapports générés
+rapport_*.html
+
+# Python
+__pycache__/
+*.pyc
+.venv/
