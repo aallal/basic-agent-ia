@@ -39,7 +39,7 @@ GITHUB_PARAMS   = StdioServerParameters(
     env={**os.environ, "GITHUB_PERSONAL_ACCESS_TOKEN": os.getenv("GITHUB_TOKEN", "")}
     
 )
-
+https://github.com/aallal/basic-agent-ia.git
 GITHUB_REPO  = os.getenv("GITHUB_REPO",  "tonpseudo/ton-repo")
 articles_buffer = []
 
@@ -166,17 +166,17 @@ def main():
         chercheur = Agent(
             role="Chercheur de sources",
             goal=(
-                "Utiliser Brave Search pour trouver les meilleures sources RSS "
+                "Utiliser Tavily Search pour trouver les meilleures sources RSS "
                 "sur l'intelligence artificielle, puis verifier dans SQLite "
                 "si elles sont deja connues et bien scorees."
             ),
             backstory=(
                 "Tu es expert en recherche d'information. "
-                "Tu utilises Brave Search pour trouver des sources fiables sur l'IA, "
+                "Tu utilises Tavily Search pour trouver des sources fiables sur l'IA, "
                 "et tu consultes la base SQLite pour eviter les doublons "
                 "et prioriser les sources avec les meilleurs scores."
             ),
-            tools=[*brave_tools, *sqlite_tools],
+            tools=[*tavily_tools, *sqlite_tools],
             verbose=True,
             max_iter=15
         )
@@ -224,7 +224,7 @@ def main():
 
         tache_recherche = Task(
             description=(
-                "1) Utilise Brave Search pour chercher "
+                "1) Utilise Tavily Search pour chercher "
                 "   'meilleurs flux RSS intelligence artificielle 2025'. "
                 "2) Selectionne 3 URLs de flux RSS pertinentes. "
                 "3) Verifie dans SQLite si la table 'sources' existe, "
